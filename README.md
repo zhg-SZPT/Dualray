@@ -4,6 +4,8 @@ This code for the paper"Dual-view Network for Prohibited Items Detection in X-ra
 ## About Dataset
 If you need our dataset, please contact our corresponding author and you will be required to sign a confidentiality agreement.  
 Corresponding author email : zhg2018@sina.com  
+### Dualray
+
 
 ## Requirements
 python 3.8  
@@ -13,6 +15,9 @@ numpy
 matplotlib  
 pillow  
 opencv-python  
+
+## DVNet Code
+
 
 ## Dataset Preparation 
 1. Our code needs to use images from two different perspectives. The vertical view images is in X_ray2022 and the horizontal view images is in X_ray2022_1.   
