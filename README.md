@@ -46,5 +46,5 @@ The Pretrained weights required for training can be download from Google Cloud D
 Please put the Pretrained file into the `model_data` folder  
 link:https://drive.google.com/file/d/1L0ieB9hqbdba0xwoAX7ohCsQZMhucEkA/view?usp=sharing   
 
-If you have already run voc_annotation.py and after placing the pretraining weights in the modal_data folder, you can run train.py to start the training.   
+If you have already run voc_annotation.py and after placing the pretraining weights in the modal_data folder, you can run `train.py` to start the training.   
 
