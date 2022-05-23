@@ -9,10 +9,14 @@ Corresponding author email : zhg2018@sina.com
 python 3.8  
 pytorch 1.11.10  
 cuda 11.2  
+numpy  
+matplotlib  
+pillow  
+opencv-python  
 
-## Dataset Preparation
-1. This article uses .txt format for training. Dualray will provide the annotation in .xml format. Before training, you need to run voc_annotation.py to generate a tag file in .txt format.  
-2. Your `~/Dualray/` folder should look like this  
+## Dataset Preparation 
+1. Our code needs to use images from two different perspectives. The vertical view images is in X_ray2022 and the horizontal view images is in X_ray2022_1.   
+Your `~/Dualray/` folder should look like this  
 ```
 Dualray
 ├── X_ray2022/
@@ -20,3 +24,4 @@ Dualray
 └── X_ray2022_1/
     └── ...
 ```
+2. This article uses .txt format for training. Dualray will provide the annotation in .xml format. Before training, you need to run voc_annotation.py to generate a tag file in .txt format. 
