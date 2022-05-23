@@ -17,7 +17,7 @@ pillow
 opencv-python  
 
 ## DVNet Code
-
+![framework](https://github.com/zhg-SZPT/Dualray/blob/main/img/framework.png)
 
 ## Dataset Preparation 
 1. Our code needs to use images from two different perspectives. The vertical view images is in X_ray2022 and the horizontal view images is in X_ray2022_1.   
