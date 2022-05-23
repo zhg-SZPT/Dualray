@@ -17,6 +17,17 @@ There are a total of 6 categories of prohibited items defined in the dataset, na
 We propose the Dual-view Network(DVNet). The detection capability is improved by using the attention module to allow the network to learn the dependency relationships of objects in different perspective views.   
 ![framework](https://github.com/zhg-SZPT/Dualray/blob/main/img/framework.png)
 
+
+### Requirements
+python 3.8  
+pytorch 1.11.10  
+cuda 11.2  
+numpy  
+matplotlib  
+pillow  
+opencv-python   
+
+
 ### Dataset Preparation 
 1. Our code needs to use images from two different perspectives. The vertical view images is in X_ray2022 and the horizontal view images is in X_ray2022_1.   
 Your `~/Dualray/` folder should look like this  
@@ -29,13 +40,5 @@ Dualray
 ```
 2. This article uses .txt format for training. Dualray will provide the annotation in .xml format. Before training, you need to run voc_annotation.py to generate a tag file in .txt format. 
 
-### Requirements
-python 3.8  
-pytorch 1.11.10  
-cuda 11.2  
-numpy  
-matplotlib  
-pillow  
-opencv-python   
 
 ### Usage
