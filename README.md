@@ -9,6 +9,7 @@ We produced a dual-view dataset(Dualray), which includes a vertical view and a h
 ![viewpoint](https://github.com/zhg-SZPT/Dualray/blob/main/img/viewpoint.png)
 
 There are a total of 6 categories of prohibited items defined in the dataset, namely Knife, Wrench, pliers, scissors, powerbank, lighter. Each image is provided with annotation.
+![prohibiteditems](https://github.com/zhg-SZPT/Dualray/blob/main/img/prohibited%20items.png)
 
 
 ## DVNet Code
