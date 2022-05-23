@@ -42,3 +42,6 @@ Dualray
 
 
 ### Usage
+1. The Pretrained weights required for training can be download from Google Cloud Drive.
+Please put the Pretrained file into the `model_data` folder  
+link:https://drive.google.com/file/d/1L0ieB9hqbdba0xwoAX7ohCsQZMhucEkA/view?usp=sharing
