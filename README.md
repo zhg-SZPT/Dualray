@@ -13,8 +13,8 @@ cuda 11.2
 ## Dataset Preparation
 1. This article uses .txt format for training. Dualray will provide the annotation in .xml format. Before training, you need to run voc_annotation.py to generate a tag file in .txt format.  
 2. Your `~/Dualray/` folder should look like this  
-`Dualray  
-├── X_ray2022/  
-│   └── ...  
-└── X_ray2022_1/   
-    └── ...  `
+`Dualray  `
+`├── X_ray2022/  `  
+`│   └── ...  `  
+`└── X_ray2022_1/`
+    `└── ...  `
