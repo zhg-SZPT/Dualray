@@ -2,8 +2,8 @@
 This code for the paper"Dual-view Network for Prohibited Items Detection in X-ray Images"  
 
 ## About Dataset
-If you need our dataset, please contact our corresponding author and you will be required to sign a confidentiality agreement.  
-Corresponding author email : zhg2018@sina.com  
+Comming soon...
+
 ### Dualray
 We produced a dual-view dataset(Dualray), which includes a vertical view and a horizontal view. And there are corresponding annotations on each viewpoint.
 ![viewpoint](https://github.com/zhg-SZPT/Dualray/blob/main/img/viewpoint.png)
